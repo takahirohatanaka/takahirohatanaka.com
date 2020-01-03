@@ -1,8 +1,10 @@
 # takahirohatanaka.com
 
+[https://takahirohatanaka.com](https://takahirohatanaka.com/)
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

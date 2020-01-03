@@ -3,3 +3,9 @@
     <nuxt />
   </div>
 </template>
+
+<style lang="scss" scoped>
+.container {
+  padding: 1rem 1.3rem;
+}
+</style>
