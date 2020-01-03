@@ -38,7 +38,11 @@ export default {
 <style lang="scss" scoped>
 .skills {
   .skill-list {
-    width: 60%;
+    width: 80%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   .skill {
