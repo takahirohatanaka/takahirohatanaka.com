@@ -90,12 +90,17 @@ header {
 
     li {
       margin-bottom: 0.5rem;
-      display: flex;
+
+      svg {
+        display: inline-block;
+      }
 
       .icon {
+        display: inline-block;
         font-size: 1.6rem;
         margin-right: 0.5rem;
         width: 1.4rem;
+        height: 1.4rem;
       }
     }
   }
