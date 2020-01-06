@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -6,6 +5,9 @@ export default {
   */
   head: {
     title: 'Takahiro Hatanaka',
+    htmlAttrs: {
+      lang: 'ja'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -63,5 +65,9 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+  server: {
+    port: 3000,
+    host: '0.0.0.0',
   }
 }
