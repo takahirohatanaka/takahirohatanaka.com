@@ -49,6 +49,7 @@ export default {
   */
   modules: [
     '@nuxtjs/style-resources',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-PVJKJQW', pageTracking: true }],
   ],
 
   styleResources: {

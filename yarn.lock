@@ -1038,6 +1038,11 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/google-tag-manager@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-tag-manager/-/google-tag-manager-2.3.1.tgz#5b0a908b6651d4f0a090736114d407896e9ff787"
+  integrity sha512-3NzHqJ8yDG/RnovAITcJIVYXjWqY80ml9rdyKjsv9wXFb0YD7/RZHltzAsDFaTYYOZV0FgFPa0jw7fSTvJJRHg==
+
 "@nuxtjs/style-resources@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/style-resources/-/style-resources-1.0.0.tgz#7c4d6be19d7f7cc5d687d689f2ab16c0b94773a1"
