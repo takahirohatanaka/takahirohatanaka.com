@@ -28,7 +28,7 @@
           <font-awesome-icon :icon="['far', 'envelope']" class="icon" />
           i<font-awesome-icon
             icon="at"
-            style="width: 1rem; margin: auto .1rem;"
+            style="width: 1rem; margin: auto .1rem .15rem .15rem;"
           />takahirohatanaka.com
         </li>
       </ul>
