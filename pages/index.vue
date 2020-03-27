@@ -21,8 +21,8 @@
 </template>
 
 <script language="ts">
-import Skills from "@/components/skills";
-import Contact from "@/components/contact";
+import Skills from "~/components/skills.vue";
+import Contact from "~/components/contact.vue";
 
 export default {
   components: {
