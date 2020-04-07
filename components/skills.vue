@@ -1,13 +1,14 @@
 <template>
-  <section class="skills">
+  <section>
     <h1>Skills</h1>
     <div>
       <div class="skill-list">
-        <span v-for="(item, index) in skillList" :key="index" class="skill">{{
+        <span v-for="(item, index) in skillList" :key="index" class="skill">
+          {{
           item
-        }}</span>
-      </div>
-      and more...
+          }}
+        </span>
+      </div>and more...
     </div>
   </section>
 </template>
@@ -36,27 +37,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.skills {
-  .skill-list {
-    width: 80%;
+.skill-list {
+  width: 80%;
 
-    @media (max-width: 768px) {
-      width: 100%;
-    }
+  @media (max-width: 768px) {
+    width: 100%;
   }
+}
 
-  .skill {
-    color: $primary-color;
-    font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont,
-      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    border-radius: 0.4rem;
-    border: 1px solid $primary-color;
-    padding: 0.4rem 0.8rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+.skill {
+  color: $primary-color;
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0.4rem;
+  border: 1px solid $primary-color;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 </style>
