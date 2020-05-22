@@ -20,6 +20,7 @@ export default {
       "Japanese",
       "PHP",
       "Laravel",
+      "FuelPHP",
       "Ruby",
       "Ruby on Rails",
       "JavaScript",

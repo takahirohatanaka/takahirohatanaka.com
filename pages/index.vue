@@ -9,7 +9,7 @@
       <section class="about-me">
         <h1>About me</h1>
         <div>
-          I am Takahiro Hatanaka. I am working as a IT engineer in Tokyo, Japan
+          I am Takahiro Hatanaka. I am working as a software engineer in Tokyo, Japan
           since 2011.
         </div>
       </section>
