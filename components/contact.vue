@@ -14,11 +14,6 @@
         </li>
 
         <li>
-          <img class="icon" src="/qiita.png" />
-          <a href="https://qiita.com/takahirohatanaka">qiita.com/takahirohatanaka</a>
-        </li>
-
-        <li>
           <font-awesome-icon :icon="['far', 'envelope']" class="icon" />i
           <font-awesome-icon icon="at" style="width: 1rem; margin: auto .1rem .15rem .15rem;" />takahirohatanaka.com
         </li>
