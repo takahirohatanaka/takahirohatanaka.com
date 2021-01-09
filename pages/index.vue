@@ -9,8 +9,11 @@
       <section class="about-me">
         <h1>About me</h1>
         <div>
-          I am Takahiro Hatanaka. I am working as a software engineer in Tokyo, Japan
-          since 2011.
+          <p>
+            I am Takahiro Hatanaka.
+            I am working as a software engineer in Tokyo, Japan since 2011.
+            <br />I work mainly as a developer and sometime as a developer manager.
+          </p>
         </div>
       </section>
 
@@ -27,8 +30,8 @@ import Contact from "~/components/contact.vue";
 export default {
   components: {
     Skills,
-    Contact
-  }
+    Contact,
+  },
 };
 </script>
 
