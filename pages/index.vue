@@ -6,17 +6,7 @@
     </header>
 
     <article>
-      <section class="about-me">
-        <h1>About me</h1>
-        <div>
-          <p>
-            I am Takahiro Hatanaka.
-            I am working as a software engineer in Tokyo, Japan since 2011.
-            <br />I work mainly as a developer and sometime as a developer manager.
-          </p>
-        </div>
-      </section>
-
+      <about />
       <skills />
       <contact />
     </article>
@@ -24,11 +14,13 @@
 </template>
 
 <script language="ts">
+import About from "~/components/about.vue";
 import Skills from "~/components/skills.vue";
 import Contact from "~/components/contact.vue";
 
 export default {
   components: {
+    About,
     Skills,
     Contact,
   },
