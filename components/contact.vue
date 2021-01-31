@@ -9,8 +9,8 @@
         </li>
 
         <li>
-          <font-awesome-icon :icon="['fab', 'flickr']" class="icon" />
-          <a href="https://www.flickr.com/photos/takahirohatanaka/">flickr.com/takahirohatanaka</a>
+          <font-awesome-icon :icon="['fa', 'camera']" class="icon" />
+          <a href="https://500px.com/takahirohatanaka">500px.com/takahirohatanaka</a>
         </li>
 
         <li>
