@@ -12,9 +12,19 @@ export default defineNuxtConfig({
       },
       { "http-equiv": "x-ua-compatible", content: "ie=edge" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        href: "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined",
+        // https://fonts.google.com/icons?selected=Material+Icons
+        rel: "stylesheet",
+      },
+    ],
   },
-  css: ["@/assets/css/tailwind.css"],
+  css: [
+    "@/assets/css/fonts.css",
+    "@/assets/css/tailwind.css",
+  ],
   build: {
     postcss: {
       postcssOptions: {

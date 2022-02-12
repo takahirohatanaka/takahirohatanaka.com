@@ -1,28 +1,20 @@
 <template>
-  <div> 
-    <header>
-      <!-- <img class="my-icon" src="icon.png" />
-      <h1>Takahiro Hatanaka</h1> -->
-      <h1 class="text-green-600">aaaaaaaaaaaaa</h1>
+  <div>
+    <header class="flex mb-5">
+      <!-- <img src="icon.png" class="rounded-full h-16" /> -->
+      <!-- <h1>Takahiro Hatanaka</h1> -->
+      <img src="https://placehold.jp/150x150.png" class="rounded-full h-20" />
+      <h1 class="flex items-center ml-4 text-5xl uppercase text-green-600">
+        aaaaaaaaaaaaa
+      </h1>
     </header>
   </div>
 </template>
 
 <style lang="scss" scoped>
 header {
-  margin-bottom: 2rem;
-  vertical-align: middle;
-
-  .my-icon {
-    border-radius: 50%;
-    height: 50px;
-    float: left;
-    margin-right: 1rem;
-  }
-
   h1 {
-    font-size: 45px;
-    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
   }
 }
 </style>

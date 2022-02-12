@@ -1,7 +1,9 @@
 <template>
   <div id="root">
-    <div class="mx-3 my-3">
+    <div class="mx-10 my-6">
       <TheTitle />
+      <i class="material-icons-outlined">task_alt</i>
+      <span class="material-icons"> task_alt </span>
     </div>
   </div>
 </template>
