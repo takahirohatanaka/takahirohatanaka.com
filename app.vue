@@ -1,9 +1,10 @@
 <template>
   <div id="root">
-    <div class="mx-10 my-6">
-      <TheTitle />
-      <i class="material-icons-outlined">task_alt</i>
-      <span class="material-icons"> task_alt </span>
+    <div class="mx-40 my-10 text-gray-600">
+      <TheTitle class="mb-7" />
+      <About class="mb-4" />
+      <SkillList class="mb-4" />
+      <Contact />
     </div>
   </div>
 </template>
@@ -11,5 +12,6 @@
 <style lang="scss" scoped>
 #root {
   border: 1px solid;
+  // font-family: "Carme", sans-serif;
 }
 </style>
