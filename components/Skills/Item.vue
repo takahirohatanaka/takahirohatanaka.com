@@ -8,7 +8,6 @@
       rounded-lg
       border-teal-500
       text-teal-600
-      font-light
     "
   >
     {{ name }}
@@ -25,6 +24,6 @@ export default {
 
 <style lang="scss" scoped>
 span {
-  font-family: "Prompt", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 </style>

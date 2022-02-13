@@ -1,5 +1,5 @@
 <template>
-  <div id="root">
+  <div id="root" class="text-base">
     <div class="mx-40 my-10 text-gray-600">
       <TheTitle class="mb-7" />
       <About class="mb-4" />
@@ -12,6 +12,5 @@
 <style lang="scss" scoped>
 #root {
   border: 1px solid;
-  // font-family: "Carme", sans-serif;
 }
 </style>

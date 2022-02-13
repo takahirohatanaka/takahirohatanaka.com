@@ -22,6 +22,6 @@
 
 <style lang="scss" scoped>
 h1 {
-  font-family: "Carme", sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 </style>

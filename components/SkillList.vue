@@ -40,9 +40,3 @@ export default {
   }),
 };
 </script>
-
-<style lang="scss" scoped>
-h1 {
-  font-family: "Carme", sans-serif;
-}
-</style>
