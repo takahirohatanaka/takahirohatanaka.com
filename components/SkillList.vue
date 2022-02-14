@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1 class="text-3xl uppercase">Skills</h1>
+      <h1 class="text-2xl uppercase">Skills</h1>
       <p class="mt-1">
         I am able to develop using the following technologies and languages.
       </p>

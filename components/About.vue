@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1 class="text-3xl uppercase">About me</h1>
+      <h1 class="text-2xl uppercase">About me</h1>
       <div class="my-1">
         <p>
           I am Takahiro Hatanaka. I am working as a software engineer in Tokyo,

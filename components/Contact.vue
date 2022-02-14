@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1 class="text-3xl uppercase">Contact</h1>
+      <h1 class="text-2xl uppercase">Contact</h1>
       <div class="my-2">
         <ul>
           <li class="flex items-center mb-1">
