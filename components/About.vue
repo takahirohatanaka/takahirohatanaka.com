@@ -18,10 +18,3 @@
     </section>
   </div>
 </template>
-
-
-<style lang="scss" scoped>
-h1 {
-  font-family: 'Questrial', sans-serif;
-}
-</style>
