@@ -1,9 +1,8 @@
-import { defineNuxtConfig } from "nuxt3"
+import { defineNuxtConfig } from "nuxt3";
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   meta: {
-    title: 'Takahiro Hatanaka',
+    title: "Takahiro Hatanaka",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
@@ -17,15 +16,11 @@ export default defineNuxtConfig({
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         href: "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined",
-        // https://fonts.google.com/icons?selected=Material+Icons
         rel: "stylesheet",
       },
     ],
   },
-  css: [
-    "@/assets/css/fonts.css",
-    "@/assets/css/tailwind.css",
-  ],
+  css: ["@/assets/css/fonts.css", "@/assets/css/tailwind.css"],
   build: {
     postcss: {
       postcssOptions: {
@@ -36,4 +31,4 @@ export default defineNuxtConfig({
       },
     },
   },
-})
+});
