@@ -20,11 +20,20 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   css: ["@/assets/css/fonts.css", "@/assets/css/tailwind.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  devServer: {
+    host: "0.0.0.0",
+    port: 3000,
+  },
+
+  compatibilityDate: "2024-07-06",
 });
