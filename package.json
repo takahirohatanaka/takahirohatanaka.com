@@ -1,18 +1,22 @@
 {
   "private": true,
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=22.23.4 <23"
+  },
   "scripts": {
     "dev": "nuxi dev --no-fork",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "nuxt": "^3.21.10",
-    "postcss": "^8.5.23",
+    "autoprefixer": "^10.6.1",
+    "nuxt": "^3.21.11",
+    "postcss": "^8.5.31",
     "tailwindcss": "^3.4.19"
   },
   "dependencies": {
     "@gtm-support/vue-gtm": "^3.2.0",
-    "sass": "^1.85.0"
+    "sass": "^1.106.0"
   }
 }
