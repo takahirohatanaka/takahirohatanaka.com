@@ -4,9 +4,9 @@
       <h1 class="text-2xl uppercase">About me</h1>
       <div class="my-1">
         <p>
-          I am Takahiro Hatanaka. I am working as a software engineer in Tokyo,
-          Japan since 2011.
-          I work mainly as a developer and sometime as a developer manager.
+          I am Takahiro Hatanaka. I have been working as a software engineer in
+          Tokyo, Japan since 2011. I mainly work as a developer and sometimes as
+          an engineering manager.
         </p>
       </div>
     </section>

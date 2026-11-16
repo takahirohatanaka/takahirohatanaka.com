@@ -4,8 +4,8 @@
       <h1 class="text-2xl uppercase">Contact</h1>
       <div class="my-2">
         <p class="mb-2">
-          This page is in English, but I don't actually speak English. It would
-          be great if you could contact me in Japanese.
+          Although this page is in English, I don't speak English. Please contact
+          me in Japanese.
         </p>
 
         <ul>

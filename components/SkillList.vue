@@ -3,7 +3,7 @@
     <section>
       <h1 class="text-2xl uppercase">Skills</h1>
       <p class="mt-1">
-        I am able to develop using the following technologies and languages.
+        My skills include the following languages and technologies.
       </p>
       <div class="my-2 flex flex-wrap">
         <SkillsItem
@@ -34,7 +34,7 @@ export default {
       "CSS",
       "MySQL",
       "Linux",
-      "Network",
+      "Networking",
       "Docker",
     ],
   }),
