@@ -22,13 +22,13 @@ export default {
   data: () => ({
     skillList: [
       "Japanese",
+      "TypeScript",
+      "Node.js",
       "PHP",
       "Laravel",
       "Ruby",
       "Ruby on Rails",
       "JavaScript",
-      "TypeScript",
-      "Node.js",
       "Go",
       "HTML",
       "CSS",
